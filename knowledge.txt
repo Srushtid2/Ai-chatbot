@@ -1,0 +1,9 @@
+Ollama is a tool that lets you run large language models like LLaMA locally on your own machine, without needing an internet connection or API key.
+
+Streamlit is a Python framework for building simple web UIs quickly, commonly used for data apps, dashboards, and chatbot frontends.
+
+FAISS (Facebook AI Similarity Search) is a library for fast vector similarity search, used to build the retrieval part of a RAG (Retrieval-Augmented Generation) system.
+
+Retrieval-Augmented Generation works by first searching a knowledge base for relevant text chunks, then passing those chunks as context to an LLM along with the user's question, so the model can answer using information it wasn't originally trained on.
+
+session_state in Streamlit is used to persist data like chat history across reruns of the app, since Streamlit reruns the whole script on every user interaction.
